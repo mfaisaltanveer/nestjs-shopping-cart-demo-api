@@ -47,6 +47,20 @@ $ yarn run start:dev
 $ http://localhost:3000/api
 ```
 
+
+## Compile and run the project through docker
+
+```bash
+# development
+$ docker-compose up -d --build
+
+# Swagger Api's link
+$ http://localhost:3000/api
+```
+
+
+
+
 ## Run tests
 
 ```bash
